@@ -209,7 +209,6 @@ endif()
 # ---------------------------------------------------------------------------------------
 if (ANDROID)
     target_link_libraries(spdlog PUBLIC log)
-    target_link_libraries(spdlog_header_only INTERFACE log)
 endif ()
 
 # ---------------------------------------------------------------------------------------
